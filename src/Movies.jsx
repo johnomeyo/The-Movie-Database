@@ -18,7 +18,7 @@ function Movies() {
     const { results } = movies;
     console.log(results[0].title)
     return (
-        <>            <MovieCard title={results[0].backdrop_path} description={results[0].overview} imageUrl={results[0].backdrop_path} />
+        <>            <MovieCard title={results[0].title} description={results[0].overview} imageUrl={results[0].backdrop_path} />
         </>
     );
 }
