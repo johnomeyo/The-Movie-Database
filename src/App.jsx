@@ -1,16 +1,15 @@
-import CatFacts from "./CatFacts"
-import InputField from "./InputField"
-import MovieCard from "./MovieCard"
-import Movies from "./Movies"
+import Excuse from './Excuser'
+import Movies from './Movies'
 function App() {
   return (
     <>
       <h1>The Movie Database</h1>
       <br />
-      <InputField />
+      {/* <MyComponent /> */}
       {/* <CatFacts /> */}
-      <Movies />
-      <MovieCard />
+      {/* <Tute /> */}
+      <Movies/>
+      {/* <Excuse /> */}
     </>
   )
 
